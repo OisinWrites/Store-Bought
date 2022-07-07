@@ -2,10 +2,9 @@ body {
     font-size: 3rem;
     color:red
 }
-#navbar-list {
+.navbar-list {
     color:goldenrod;
-    list-style-type: style type none;
-
+    list-style-type: none;
     justify-content:space-around;
     flex-direction:row;
 }
