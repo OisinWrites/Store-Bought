@@ -1,10 +1,11 @@
 body {
-    font-size: 1rem;
+    font-size: 3rem;
     color:red
 }
-#navbar-list {
+.nav1 {
     color:goldenrod;
     list-style-type: style type none;
-}
+
     justify-content:space-around;
-    flex-direction: row;
+    flex-direction:row;
+}
