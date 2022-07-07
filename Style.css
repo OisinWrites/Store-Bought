@@ -2,7 +2,7 @@ body {
     font-size: 1rem;
     color:red
 }
-.navbar-list {
+#navbar-list {
     color:goldenrod;
     justify-content:space-around;
     flex-direction: row;
