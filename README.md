@@ -12,6 +12,8 @@
 ### Wireframes
 
 ## Testing
+    1. Previewed site in browser with command "python3 -m "http.server""
+        History page had cocktails written in red as per stylesheet.
 
 ## Deployment
 
