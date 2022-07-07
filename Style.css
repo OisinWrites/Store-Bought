@@ -2,7 +2,7 @@ body {
     font-size: 3rem;
     color:red
 }
-.nav1 {
+#navbar-list {
     color:goldenrod;
     list-style-type: style type none;
 
