@@ -4,6 +4,7 @@ body {
 }
 #navbar-list {
     color:goldenrod;
+    list-style-type: style type none;
+}
     justify-content:space-around;
     flex-direction: row;
-}

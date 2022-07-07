@@ -15,6 +15,7 @@
     1. Previewed site in browser with command "python3 -m "http.server""
         History page had cocktails written in red as per stylesheet.
     2. Added CSS rules to nav element, did not effect ul. Applying id to ul instead.
+    3. Changed css identifier to # to target id. Color of bulleit points changed.
 
 ## Deployment
 
