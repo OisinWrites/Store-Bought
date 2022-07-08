@@ -2,7 +2,12 @@ body {
     font-size: 3rem;
     
 }
+#martini-icon {
+   justify-content:center;
+}
 .navbar-list {
+    padding: 2rem;
+    background-color: rgb(29, 123, 167);
     display: flex;
     list-style-type: none;
     justify-content:space-around;
