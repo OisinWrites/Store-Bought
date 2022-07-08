@@ -1,11 +1,14 @@
 body {
     font-size: 3rem;
-    color:red
+    
 }
 #navbar-list {
     display: flex;
-    color:goldenrod;
     list-style-type: none;
     justify-content:space-around;
     flex-direction:row;
+}
+.nav1 {
+    color:gold;
+    text-decoration: none;
 }
