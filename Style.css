@@ -3,11 +3,11 @@ body {
     
 }
 .navicons {
-   align-items:center;
+   align-items:baseline;
    color:goldenrod;
 }
 .navbar-list {
-    padding: 2rem;
+    padding: .5rem;
     background-color: rgb(29, 123, 167);
     display: flex;
     list-style-type: none;
@@ -17,4 +17,5 @@ body {
 .nav1 {
     color:goldenrod;
     text-decoration: none;
+    font-size: 2rem;
 }
