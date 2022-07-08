@@ -2,7 +2,7 @@ body {
     font-size: 3rem;
     
 }
-#navbar-list {
+.navbar-list {
     display: flex;
     list-style-type: none;
     justify-content:space-around;
