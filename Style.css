@@ -3,8 +3,8 @@ body {
     
 }
 .navicons {
-   justify-content:center;
-   color:green;
+   align-items:center;
+   color:goldenrod;
 }
 .navbar-list {
     padding: 2rem;
