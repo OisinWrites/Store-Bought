@@ -2,7 +2,8 @@ body {
     font-size: 3rem;
     color:red
 }
-.navbar-list {
+#navbar-list {
+    display: flex;
     color:goldenrod;
     list-style-type: none;
     justify-content:space-around;
