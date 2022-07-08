@@ -2,8 +2,9 @@ body {
     font-size: 3rem;
     
 }
-#martini-icon {
+.navicons {
    justify-content:center;
+   color:green;
 }
 .navbar-list {
     padding: 2rem;
