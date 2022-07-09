@@ -2,9 +2,14 @@ body {
     font-size: 3rem;
     
 }
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .navicons {
-   align-items:baseline;
-   color:goldenrod;
+   color:gold;
 }
 .navbar-list {
     padding: .5rem;
