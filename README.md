@@ -21,6 +21,7 @@
 ## Deployment
 
 ## Citiations
-    -TextboxFroggy, for css display
+    -TextboxFroggy, for css display https://flexboxfroggy.com/
+    -W3Schools https://www.w3schools.com/css
 
 ## Future of the site
