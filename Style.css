@@ -5,8 +5,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner {
-    align-items: center;
+#banner {
+    display: flex;
+    justify-content: center;
+}
+.banner-items {
+    color:aqua;
+    display:flex;
+    flex-direction: column;
 }
 .navicons {
    color:goldenrod;
