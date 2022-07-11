@@ -79,7 +79,8 @@ body {
     text-size-adjust: 100%;
     display: flex;
     justify-content: right;
+    font-family: 'Indie Flower', cursive;
 }
 #quote {
-    margin-bottom: 8%;
+    margin-bottom: 8rem;
 }
