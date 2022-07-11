@@ -86,8 +86,8 @@ body {
    
     font-family: 'Indie Flower', cursive;
 }
-#quote {
-    
+.quote {
+    list-style-type: none;    
 }
 #origin {
     width:65%;
@@ -102,4 +102,13 @@ body {
     flex-direction: row;
     background:rgb(38, 39, 41, 0.75);
     color:antiquewhite;
+}
+.wikidefinitions {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+#Origin-of-Cocktails {
+    font-size: 200%;
 }
