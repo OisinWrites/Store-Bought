@@ -6,13 +6,19 @@ body {
     background-size: cover;
 }
 #banner {
+    height: 2rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
 }
 .banner-items {
-    color:aqua;
-    display:flex;
-    flex-direction: column;
+    color:rgb(29, 123, 167);
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+#Store-Bought {
+    font: 10rem;
 }
 .navicons {
    color:goldenrod;
