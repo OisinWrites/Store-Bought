@@ -18,10 +18,12 @@
     3. Changed css identifier to # to target id. Color of bulleit points changed.
     4. New day, success! Issue with navbar-list was style rule 'display: flex;'.
     5. More success! Couldn't colour list items, class had to be inside anchor not li.
+    
 ## Deployment
 
 ## Citiations
     -TextboxFroggy, for css display https://flexboxfroggy.com/
     -W3Schools https://www.w3schools.com/css
+    -Sitepoint https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
 
 ## Future of the site
