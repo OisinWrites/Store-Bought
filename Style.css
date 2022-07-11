@@ -1,19 +1,96 @@
 @media screen and (min-width: 601px) {
     #banner {
         font-size: 500%; 
+        background-color: rgb(29, 123, 167, 0.8);
+        border-radius: 70%;
+        size: 100%;
+        margin-top: 2%;
+        height: 100%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-items {
+        font-weight: 300;
+        color:goldenrod;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+        -webkit-text-stroke: 0.08rem rgb(29, 123, 167, 0.2);
+        font-family: 'Dancing Script', cursive; 
+    }
+    #Store-Bought {
+        margin-top: 0.025rem;
+        margin-bottom: 0.025rem;
+        white-space: nowrap;
     }
     .navbar-list {
         font-size: 200%;
+        margin:0%;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        background-color: rgb(29, 123, 167);
+        display: flex;
+        list-style-type: none;
+        justify-content:space-around;
+        flex-direction:row;
+    }
+    .nav1 {
+        color:goldenrod;
+        text-decoration: none;
+        font-size: 80%;
     }
     #Store-Bought {
         font-size: 250%;
     }
-    .oad {
-        font-size: 120%;
+    #definition {
+        font-size: 80%;
+        width: 34%;
+        margin-block: 7%;
+        margin-left: 3%;
+        margin-right: 5%;
+        font-family: 'Indie Flower', cursive;
     }
-  }
-  
+    #origin {
+        font-size: 130%;
+        width: 50%;
+        margin-block: 4%;
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+    .wikidefinitions {
+        font-style: italic;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        justify-content: center;
+    }
+    .oad {
+        font-size: 150%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background:rgb(38, 39, 41, 0.75);
+        color:antiquewhite;
+    } 
+    body {
+        font-size: 62.5%;
+        background-image: url("https://i.imgur.com/i23cGgr.jpeg");
+        background-color: rgb(38, 39, 41);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
 @media screen and (max-width: 600px) {
+    body {
+        font-size: 62.5%;
+        background-image: url("https://i.imgur.com/i23cGgr.jpeg");
+        background-color: rgb(38, 39, 41);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     #banner {
       font-size: 250%;
     }
@@ -24,91 +101,79 @@
         font-size: 250%;
     }
     .oad {
-        font-size: 90%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background:rgb(38, 39, 41, 0.75);
+        color:antiquewhite;
+    }
+    #definition {
+        width: 100%;
+        margin-block: 7%;
+        margin-left: 3%;
+        margin-right: 5%;
+        font-family: 'Indie Flower', cursive;
+    }
+    #origin {
+        font-size: 130%;
+        width: 100%;
+        margin-block: 4%;
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+    #banner {
+        background-color: rgb(29, 123, 167, 0.8);
+        border-radius: 70%;
+        size: 100%;
+        margin-top: 2%;
+        height: 100%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-items {
+        font-weight: 300;
+        color:goldenrod;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+        -webkit-text-stroke: 0.08rem rgb(29, 123, 167, 0.2);
+        font-family: 'Dancing Script', cursive; 
+    }
+    #Store-Bought {
+        margin-top: 0.025rem;
+        margin-bottom: 0.025rem;
+        white-space: nowrap;
+    }
+    .navicons {
+       color:goldenrod;
+    }
+    .navbar-list {
+        margin:0%;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        background-color: rgb(29, 123, 167);
+        display: flex;
+        list-style-type: none;
+        justify-content:space-around;
+        flex-direction:row;
+    }
+    .nav1 {
+        color:goldenrod;
+        text-decoration: none;
+        font-size: 80%;
+    }
+    .wikidefinitions {
+        font-style: italic;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        justify-content: center;
+    }
+    #Origin-of-Cocktails {
+        font-size: 200%;
     }
   }
-body {
-    font-size: 62.5%;
-    background-image: url("https://i.imgur.com/i23cGgr.jpeg");
-    background-color: rgb(38, 39, 41);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#banner {
-    background-color: rgb(29, 123, 167, 0.8);
-    border-radius: 70%;
-    size: 100%;
-    margin-top: 2%;
-    height: 100%;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.banner-items {
-    font-weight: 300;
-    color:goldenrod;
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem;
-    -webkit-text-stroke: 0.08rem rgb(29, 123, 167, 0.2);
-    font-family: 'Dancing Script', cursive; 
-}
-#Store-Bought {
-    margin-top: 0.025rem;
-    margin-bottom: 0.025rem;
-    white-space: nowrap;
-}
-.navicons {
-   color:goldenrod;
-}
-.navbar-list {
-    margin:0%;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    background-color: rgb(29, 123, 167);
-    display: flex;
-    list-style-type: none;
-    justify-content:space-around;
-    flex-direction:row;
-}
-.nav1 {
-    color:goldenrod;
-    text-decoration: none;
-    font-size: 80%;
-}
-#definition {
-    width: 44%;
-    margin-block: 4%;
-    margin-left: 3%;
-    margin-right: 3%;
-    font-family: 'Indie Flower', cursive;
-}
-.quote {
-    list-style-type: none;    
-}
-#origin {
-    width: 44%;
-    margin-block: 4%;
-    margin-left: 3%;
-    margin-right: 3%;
-    
-}
-.oad {
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background:rgb(38, 39, 41, 0.75);
-    color:antiquewhite;
-}
-.wikidefinitions {
-    font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    justify-content: center;
-}
-#Origin-of-Cocktails {
-    font-size: 200%;
-}
+
