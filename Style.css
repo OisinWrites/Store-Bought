@@ -79,18 +79,17 @@ body {
     font-size: 80%;
 }
 #definition {
-    width: auto;
+    width: 44%;
     margin-block: 4%;
     margin-left: 3%;
     margin-right: 3%;
-   
     font-family: 'Indie Flower', cursive;
 }
 .quote {
     list-style-type: none;    
 }
 #origin {
-    width:65%;
+    width: 44%;
     margin-block: 4%;
     margin-left: 3%;
     margin-right: 3%;
@@ -100,6 +99,7 @@ body {
     margin-top: 2%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background:rgb(38, 39, 41, 0.75);
     color:antiquewhite;
 }
