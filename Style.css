@@ -8,6 +8,9 @@
     #Store-Bought {
         font-size: 250%;
     }
+    .oad {
+        font-size: 120%;
+    }
   }
   
 @media screen and (max-width: 600px) {
@@ -15,10 +18,13 @@
       font-size: 250%;
     }
     .navbar-list {
-        font-size: .4rem;
+        font-size: 180%;
     }
     #Store-Bought {
         font-size: 250%;
+    }
+    .oad {
+        font-size: 90%;
     }
   }
 body {
@@ -70,17 +76,30 @@ body {
 .nav1 {
     color:goldenrod;
     text-decoration: none;
-    font-size: 60%%;
+    font-size: 80%;
 }
 #definition {
-    margin-top: 2%;
-    background:rgb(38, 39, 41, 0.75);
-    color:antiquewhite;
-    text-size-adjust: 100%;
-    display: flex;
-    justify-content: right;
+    width: auto;
+    margin-block: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+   
     font-family: 'Indie Flower', cursive;
 }
 #quote {
-    margin-bottom: 8rem;
+    
+}
+#origin {
+    width:65%;
+    margin-block: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+.oad {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    background:rgb(38, 39, 41, 0.75);
+    color:antiquewhite;
 }
