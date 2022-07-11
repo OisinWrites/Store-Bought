@@ -70,5 +70,16 @@ body {
 .nav1 {
     color:goldenrod;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 60%%;
+}
+#definition {
+    margin-top: 2%;
+    background:rgb(38, 39, 41, 0.75);
+    color:antiquewhite;
+    text-size-adjust: 100%;
+    display: flex;
+    justify-content: right;
+}
+#quote {
+    margin-bottom: 8%;
 }
