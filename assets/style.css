@@ -101,39 +101,18 @@ body {
 }
 .recipes{
     margin-top: 4%;
-    background:rgb(38, 39, 41, 0.75);
+    background:rgb(38, 39, 41);
     color:lavender;
     font-weight:200;
-    display:flex;
-    padding:40px;
+    padding:3rem;
     font-family: 'Nanum Pen Script', cursive;
 }
-#whiskey-sour {
-    width: 20vw;
+.cocktail-images {
+    width: 100%;
     height: auto;
-    background: url(../assets/images/whiskeysour.jpeg) no-repeat;
-    background-size: cover;
-    margin-right: 20px;  
-}
-#espresso-martisni {
-    width: 20vw;
-    height: 20vh;
-    background: url(../assets/images/espressomartini.jpeg) no-repeat;
-    background-size: cover;
-}
-#espresso-recipe {
-    -webkit-text-stroke: 1px black;
-    padding: 40px;
-    display:flex;
-    flex-direction: row-reverse;
-    background: url(../assets/images/espressomartini.jpeg) no-repeat;
-    background-size: cover;
-}
-#pornstar-martini {
-    width: 20vw;
-    height: 20vh;
-    background: url(../assets/images/pornstarmartini.jpg) no-repeat;
-    background-size: cover;
+    padding-bottom: 1.5rem;
+    padding-top: .1rem;
+    border-radius: 2%;
 }
 footer {
     height: 80px;
@@ -166,5 +145,8 @@ footer {
     .Origin-Definitions {
         display:flex;
         flex-direction: row;
+    }
+    .cocktail-images {
+        width: 50%;
     }
 }
