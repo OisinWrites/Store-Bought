@@ -1,5 +1,5 @@
 body {
-    font-size: 62.5%;
+    font-size: 100%;
     background: url(../assets/images/cocktailbar.jpeg) no-repeat center center;
     background-color: rgb(38, 39, 41);
     background-size: cover;
@@ -30,29 +30,6 @@ body {
 .navbar-list a:hover {
     color:rgb(255, 184, 4, 0.8);
 }
-.Origin-Definitions {
-    margin-top: 4%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background:rgb(38, 39, 41, 0.75);
-    color:antiquewhite;
-    padding-bottom: 100px;
-}
-#definition {
-    width: 100%;
-    margin-block: 7%;
-    margin-left: 3%;
-    margin-right: 5%;
-    font-family: 'Indie Flower', cursive;
-}
-#origin {
-    font-size: 130%;
-    width: 90%;
-    margin-block: 4%;
-    margin-left: 5%;
-    margin-right: 3%;
-}
 #banner {
     background-color: rgba(33, 78, 99, 0.95);
     border-radius: 70%;
@@ -82,14 +59,42 @@ body {
     font-size: 150%;
     color:rgb(255, 184, 4);
 }
-.wikidefinitions {
+.Origin-Definitions {
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    background:rgb(38, 39, 41, 1);
+}
+#origin {
+    width: 90%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background:rgb(38, 39, 41, 1);
+    color:lavender;
+}
+#definition {
+    background-color: lavender;
+    color:rgb(38, 39, 41, 1);
+    width: 90%;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px; 
+    list-style-type: none;
+}
+.Adjective-Verb {
     font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
     display: flex;
     justify-content: center;
-}
-#Origin-of-Cocktails {
-    font-size: 200%;
 }
 #recipebody {
     padding-bottom: 100px;
@@ -97,13 +102,14 @@ body {
 .recipes{
     margin-top: 4%;
     background:rgb(38, 39, 41, 0.75);
-    color:antiquewhite;
+    color:lavender;
+    font-weight:200;
     display:flex;
     flex-direction: row-reverse;
     display: flex;
     justify-content: space-evenly;
     padding:5%;
-    font-size: 100%;
+    font-family: 'Nanum Pen Script', cursive;
 }
 #whiskey-sour {
     width: 20vh;
