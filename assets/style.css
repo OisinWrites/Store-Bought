@@ -1,4 +1,29 @@
 @media screen and (min-width: 601px) {
+    body {
+        font-size: 62.5%;
+        background: url(../assets/images/cocktailbar.jpeg) no-repeat center center;
+        background-color: rgb(38, 39, 41);
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        line-height: 35px;
+    }
+    .nav1 {
+        color:goldenrod;
+        text-decoration: none;
+        font-size: 80%;
+    }
+    .navbar-list {
+        font-size: 200%;
+        margin:0%;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        background-color: rgb(29, 123, 167);
+        display: flex;
+        list-style-type: none;
+        justify-content:space-around;
+        flex-direction:row;
+    }
     #banner {
         font-size: 500%; 
         background-color: rgb(29, 123, 167, 0.8);
@@ -25,26 +50,9 @@
         margin-top: 0.025rem;
         margin-bottom: 0.025rem;
         white-space: nowrap;
-    }
-    .navbar-list {
-        font-size: 200%;
-        margin:0%;
-        padding: 0.5rem;
-        border-radius: 1rem;
-        background-color: rgb(29, 123, 167);
-        display: flex;
-        list-style-type: none;
-        justify-content:space-around;
-        flex-direction:row;
-    }
-    .nav1 {
-        color:goldenrod;
-        text-decoration: none;
-        font-size: 80%;
-    }
-    #Store-Bought {
         font-size: 250%;
     }
+/*---------------------------------------Rules for History*/
     #definition {
         font-size: 80%;
         width: 34%;
@@ -75,22 +83,16 @@
         background:rgb(38, 39, 41, 0.75);
         color:antiquewhite;
     } 
-    body {
-        font-size: 62.5%;
-        background-image: url(../assets/images/cocktailbar.jpeg);
-        background-color: rgb(38, 39, 41);
-        background-repeat: no-repeat;
-        height: 100vh;
-        background-size: cover;
-    }
+/*------------------------------------------Rules for Recipes*/
     #whiskeysour {
-        float: right;
-        width: 40rem;
-        height: auto;
-        padding-top: 20px;
-        background: url(../assets/images/whiskeysour.jpeg) no-repeat center;
+        width: auto;
+        height: 8rem;
+        background-image: url(../assets/images/whiskeysour.jpeg) no-repeat center;  
         }
-        
+    #first-recipe {
+        display: flex;
+        justify-content: center;
+    }
     }
 @media screen and (max-width: 600px) {
     body {
@@ -98,8 +100,9 @@
         background-image: url(../assets/images/cocktailbar.jpeg);
         background-color: rgb(38, 39, 41);
         background-repeat: no-repeat;
-        height: 100vh;
         background-size: cover;
+        height: 100vh;
+        width: auto;
     }
     #banner {
       font-size: 250%;
@@ -184,6 +187,12 @@
     }
     #Origin-of-Cocktails {
         font-size: 200%;
+    }
+    #whiskessysour {
+       
+    }
+    #firssst-recipe {
+        
     }
   }
 
