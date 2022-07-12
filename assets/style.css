@@ -90,21 +90,34 @@ body {
 }
 .recipes{
     margin-top: 4%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     background:rgb(38, 39, 41, 0.75);
     color:antiquewhite;
+    display:flex;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstandsecond {
+    display: flex;
+    justify-content: space-evenly;
 }
 #whiskey-sour {
     width: 20vh;
     height: 20vh;
     background: url(../assets/images/whiskeysour.jpeg) no-repeat;
     background-size: cover;  
-    }
-#first-recipe {
-    display: flex;
-    justify-content: right;
+}
+#espresso-martini {
+    width: 20vh;
+    height: 20vh;
+    background: url(../assets/images/espressomartini.jpeg) no-repeat;
+    background-size: cover;
+}
+#pornstar-martini {
+    width: 20vh;
+    height: 20vh;
+    background: url(../assets/images/pornstarmartini.jpg) no-repeat;
+    background-size: cover;
 }
 @media screen and (min-width: 600px) {
 .nav1 {
