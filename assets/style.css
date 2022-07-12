@@ -80,6 +80,7 @@
         background-image: url(../assets/images/cocktailbar.jpeg);
         background-color: rgb(38, 39, 41);
         background-repeat: no-repeat;
+        height: 100vh;
         background-size: cover;
     }
     #whiskeysour {
@@ -97,6 +98,7 @@
         background-image: url(../assets/images/cocktailbar.jpeg);
         background-color: rgb(38, 39, 41);
         background-repeat: no-repeat;
+        height: 100vh;
         background-size: cover;
     }
     #banner {
