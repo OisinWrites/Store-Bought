@@ -162,3 +162,9 @@ footer {
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
 }
+@media screen and (min-width: 601px) {
+    .Origin-Definitions {
+        display:flex;
+        flex-direction: row;
+    }
+}
