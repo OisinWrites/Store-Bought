@@ -103,7 +103,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding:5%;
-    font-size: 150%;
+    font-size: 100%;
 }
 #whiskey-sour {
     width: 20vh;
