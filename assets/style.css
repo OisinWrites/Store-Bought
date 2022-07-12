@@ -27,7 +27,7 @@ body {
 }
 #origin {
     font-size: 130%;
-    width: 100%;
+    width: 90%;
     margin-block: 4%;
     margin-left: 5%;
     margin-right: 3%;
@@ -96,10 +96,10 @@ body {
     flex-direction: row-reverse;
     display: flex;
     justify-content: space-evenly;
+    padding:5%;
 }
-.firstandsecond {
-    display: flex;
-    justify-content: space-evenly;
+.recipelists {
+    font-size: 150%;
 }
 #whiskey-sour {
     width: 20vh;
