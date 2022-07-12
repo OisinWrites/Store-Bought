@@ -82,6 +82,14 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    #whiskeysour {
+        float: right;
+        width: 40rem;
+        height: auto;
+        padding-top: 20px;
+        background: url(../assets/images/whiskeysour.jpeg) no-repeat center;
+        }
+        
     }
 @media screen and (max-width: 600px) {
     body {
