@@ -5,8 +5,25 @@
 
 ## UX/UI
 ### Site Goals
+- To be an visually attractive site
+- To be plainly navigable
+- To be able to communicate information in a clear and intelligible way
+- To allow for interaction from the user in the form of photo submissions and reviews
+
 ### Design Choices
+- 
 ### User Stories
+#### As a first time visitor
+- I want to be able to navigate to the cocktails easily as that is my reason for visiting the site
+- I want the information to be clear and concise
+- I want to feel like the recipes easily replicated
+- I want to learn more detailed information about the drinks I like
+- I want help problem solving with swapping ingredients or utensils for what I have available to me
+#### As a recurring visitor
+- I want to have access to a broader selection of recipes
+- I might want to be able to contact the site owner to request certain recipes be posted
+- I would like to be able to submit photos of my own finished cocktails
+- I would like to be able to review the recipes and give feedback after trying them
 ### Wireframes
 
 ## Testing
