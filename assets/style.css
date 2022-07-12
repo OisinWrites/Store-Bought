@@ -1,20 +1,14 @@
 body {
     font-size: 62.5%;
-    background-image: url(../assets/images/cocktailbar.jpeg);
+    background: url(../assets/images/cocktailbar.jpeg) no-repeat center center;
     background-color: rgb(38, 39, 41);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    width: auto;
-}
-#banner {
-  font-size: 250%;
+    width: 100vw;
+    line-height: 35px;
 }
 .navbar-list {
     font-size: 180%;
-}
-#Store-Bought {
-    font-size: 1rem;
 }
 .oad {
     margin-top: 4%;
@@ -50,10 +44,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 250%;
 }
 .banner-items {
     font-weight: 300;
-    color:goldenrod;
+    color:rgb(247, 216, 140);
     margin-top: 0.1rem;
     margin-bottom: 0.1rem;
     -webkit-text-stroke: 0.08rem rgb(29, 123, 167, 0.2);
@@ -63,6 +58,8 @@ body {
     margin-top: 0.025rem;
     margin-bottom: 0.025rem;
     white-space: nowrap;
+    font-size: 150%;
+    color:goldenrod;
 }
 .navicons {
    color:goldenrod;
@@ -91,25 +88,25 @@ body {
 #Origin-of-Cocktails {
     font-size: 200%;
 }
-#whiskeysour {
-    width: auto;
-    height: 8rem;
-    background-image: url(../assets/images/whiskeysour.jpeg) no-repeat center;  
+.recipes{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background:rgb(38, 39, 41, 0.75);
+    color:antiquewhite;
+}
+#whiskey-sour {
+    width: 20vh;
+    height: 20vh;
+    background: url(../assets/images/whiskeysour.jpeg) no-repeat;
+    background-size: cover;  
     }
 #first-recipe {
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 @media screen and (min-width: 600px) {
-body {
-    font-size: 62.5%;
-    background: url(../assets/images/cocktailbar.jpeg) no-repeat center center;
-    background-color: rgb(38, 39, 41);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    line-height: 35px;
-}
 .nav1 {
     color:goldenrod;
     text-decoration: none;
@@ -139,10 +136,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: space-around;
 }
 .banner-items {
     font-weight: 300;
-    color:goldenrod;
+    color:rgb(247, 216, 140);
     margin-top: 0.1rem;
     margin-bottom: 0.1rem;
     -webkit-text-stroke: 0.08rem rgb(29, 123, 167, 0.2);
@@ -152,7 +150,8 @@ body {
     margin-top: 0.025rem;
     margin-bottom: 0.025rem;
     white-space: nowrap;
-    font-size: 250%;
+    font-size: 150%;
+    color:goldenrod;
 }
 /*---------------------------------------Rules for History*/
 #definition {
