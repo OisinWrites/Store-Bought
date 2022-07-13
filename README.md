@@ -30,6 +30,8 @@
     1. -Windows screen minimised no further than approx 400px, leaving mobile media screen untested/
        -Downloaded chrome extension for screen testing from mobilefirst.com
        -Discovered lack of responsivity and fixed problem, specifically the banner at width:400px;
+    2. -Lighthouse noted lack of title in head of pages
+       -Added meta title and icon
 
 ## Deployment
 
