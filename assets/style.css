@@ -51,14 +51,14 @@ body {
     -webkit-text-stroke: 0.08rem rgb(29, 123, 167, 0.2);
     font-family: 'Dancing Script', cursive; 
 }
-#Store-Bought {
+#store-Bought {
     margin-top: 0.025rem;
     margin-bottom: 0.025rem;
     white-space: nowrap;
     font-size: 150%;
     color:rgb(255, 184, 4);
 }
-.Origin-Definitions {
+.origin-definitions {
     font-family: 'Nanum Pen Script', cursive;
     font-weight: 200;
     font-size: 22px;
@@ -91,7 +91,7 @@ body {
     list-style-type: none;
     margin-top: 20px;
 }
-.Adjective-Verb {
+.adjective-verb {
     font-style: italic;
     list-style-type: none;
     display: flex;
@@ -135,7 +135,7 @@ footer {
     font-size: 2rem;
     color: rgba(114, 38, 73, 0.85);
 }
-#Store-Bought-footer {
+#store-bought-footer {
     white-space: nowrap;
     font-size: 40px;
     color:rgba(38, 89, 114, 0.75);
@@ -144,7 +144,7 @@ footer {
     text-decoration: none;
 }
 @media screen and (min-width: 601px) {
-    .Origin-Definitions {
+    .origin-definitions {
         display:flex;
         flex-direction: row;
     }
