@@ -7,6 +7,7 @@ body {
     width: 100vw;
     line-height: 35px;
 }
+/*-------------Navigation Bar---------*/
 .navicons {
     color:rgb(255, 184, 4);
  }
@@ -29,6 +30,7 @@ body {
 .navbar-list a:hover {
     color:rgb(255, 184, 4, 0.8);
 }
+/*-------------Banner Logo---------*/
 #banner {
     background-color: rgba(33, 78, 99, 0.95);
     border-radius: 70%;
@@ -58,6 +60,7 @@ body {
     font-size: 150%;
     color:rgb(255, 184, 4);
 }
+/*-------------History---------*/
 .origin-definitions {
     font-family: 'Nanum Pen Script', cursive;
     font-weight: 200;
@@ -98,6 +101,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/*-------------Recipes---------*/
 #recipebody {
     padding-bottom: 100px;
 }
@@ -109,13 +113,14 @@ body {
     padding:3rem;
     font-family: 'Nanum Pen Script', cursive;
 }
-.cocktail-images {
-    width: 30rem;
-    height: auto;
+.cocktafil-images {
+    width: 80%;
+    height: 80%;
     padding-bottom: 1.5rem;
     padding-top: .1rem;
     border-radius: 2%;
 }
+/*-------------Footer---------*/
 footer {
     height: 80px;
     width: 100vw;
@@ -150,7 +155,7 @@ footer {
     }
     .cocktail-images {
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     #banner {
         width: 30rem;
