@@ -6,6 +6,9 @@ body {
     height: 100vh;
     width: 100vw;
     line-height: 35px;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 /*-------------Navigation Bar---------*/
 .navicons {
@@ -104,13 +107,14 @@ body {
 /*-------------Recipes---------*/
 .recipe-section {
     display:flex;
-    justify-content: space-around;
-    width:auto;
+    flex-direction: column;
+    padding-bottom: 4rem;
 }
 .recipes{
-    width:30rem;
+    width:auto;
     display:flex;
     flex-direction: column;
+    justify-content: center;
     margin-top: 4%;
     background:rgb(38, 39, 41);
     color:lavender;
@@ -119,8 +123,8 @@ body {
     padding: 3rem;
 }
 .cocktail-images {
-    width: auto;
-    height: 15rem;
+    width: 20rem;
+    height: auto;
     border-radius: 2%;
 }
 .recipelists {
@@ -165,5 +169,10 @@ footer {
     }
     #banner {
         width: 30rem;
+    }
+    .recipe-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }

@@ -11,7 +11,9 @@
 - To allow for interaction from the user in the form of photo submissions and reviews
 
 ### Design Choices
-- 
+- Color
+- Typography
+- Imagery
 ### User Stories
 #### As a first time visitor
 - I want to be able to navigate to the cocktails easily as that is my reason for visiting the site
@@ -49,3 +51,7 @@
     -GeeksforGeeks https://www.geeksforgeeks.org/set-the-opacity-only-to-background-color-not-on-the-text-in-css/
     -Digitalocean https://www.digitalocean.com/community/tutorials/css-prevent-line-break
     -Favicon https://favicon.io/tutorials/how-to-add-a-favicon-to-a-website-ico-format/
+    -Laura Jones https://laurajones9-portfoliop1-hodfbgh5vsu.ws-eu53.gitpod.io/
+      _for explaining the solution she found to a white space issue on the right of screen_
+      _as a guide for how to document and arrange my readme and screenshots_
+      _for providing a template of a footer with icon links_
