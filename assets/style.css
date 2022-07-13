@@ -21,7 +21,6 @@ body {
      flex-direction:row;
      font-size: 180%
  }
-
  .nav1 {
     color:rgb(255, 184, 4);
     text-decoration: none;
@@ -69,6 +68,7 @@ body {
     align-items: center;
     padding-bottom: 100px;
     background:rgb(38, 39, 41, 1);
+    margin-top: 10px;
 }
 #origin {
     width: 90%;
@@ -110,7 +110,7 @@ body {
     font-family: 'Nanum Pen Script', cursive;
 }
 .cocktail-images {
-    width: 100%;
+    width: 30rem;
     height: auto;
     padding-bottom: 1.5rem;
     padding-top: .1rem;
@@ -149,6 +149,7 @@ footer {
         flex-direction: row;
     }
     .cocktail-images {
-        width: 50%;
+        display:flex;
+        flex-direction: row;
     }
 }
