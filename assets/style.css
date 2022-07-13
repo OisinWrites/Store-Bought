@@ -106,6 +106,7 @@ body {
     padding-bottom: 100px;
 }
 .recipes{
+    width:auto;
     margin-top: 4%;
     background:rgb(38, 39, 41);
     color:lavender;
@@ -116,8 +117,6 @@ body {
 .cocktafil-images {
     width: 80%;
     height: 80%;
-    padding-bottom: 1.5rem;
-    padding-top: .1rem;
     border-radius: 2%;
 }
 /*-------------Footer---------*/
