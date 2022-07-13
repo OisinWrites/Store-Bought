@@ -32,6 +32,8 @@
        -Discovered lack of responsivity and fixed problem, specifically the banner at width:400px;
     2. -Lighthouse noted lack of title in head of pages
        -Added meta title and icon
+    3. -Validator noted <em> not allowed in a ul. 
+       -Forgot to write content in a list item
 
 ## Deployment
 
