@@ -103,7 +103,8 @@ body {
 }
 /*-------------Recipes---------*/
 #recipebody {
-    padding-bottom: 100px;
+    padding-bottom: 40rem;
+    width: 80%;
 }
 .recipes{
     width:auto;

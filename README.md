@@ -37,6 +37,7 @@
        -Error resolved after wrapping content in a li
     4. -Recipes page on large screens pushes beyond background on right
        -CSS code doesn't seem to be the issue, will delete and add html to problem solve
+       -Issue is with section element, adjusting width to a % is helping
 
 ## Deployment
 
