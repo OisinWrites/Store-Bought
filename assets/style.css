@@ -35,7 +35,7 @@ body {
     size: 100%;
     margin-top: 2%;
     height: 100%;
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -51,7 +51,7 @@ body {
     -webkit-text-stroke: 0.08rem rgb(29, 123, 167, 0.2);
     font-family: 'Dancing Script', cursive; 
 }
-#store-Bought {
+#store-bought {
     margin-top: 0.025rem;
     margin-bottom: 0.025rem;
     white-space: nowrap;
@@ -135,7 +135,7 @@ footer {
     font-size: 2rem;
     color: rgba(114, 38, 73, 0.85);
 }
-#store-bought-footer {
+.store-bought-footer {
     white-space: nowrap;
     font-size: 40px;
     color:rgba(38, 89, 114, 0.75);
@@ -146,7 +146,7 @@ footer {
 @media screen and (min-width: 601px) {
     .origin-definitions {
         display:flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
     .cocktail-images {
         display:flex;
