@@ -32,8 +32,11 @@
        -Discovered lack of responsivity and fixed problem, specifically the banner at width:400px;
     2. -Lighthouse noted lack of title in head of pages
        -Added meta title and icon
-    3. -Validator noted <em> not allowed in a ul. 
-       -Forgot to write content in a list item
+    3. -Validator noted <em> not allowed in a ul 
+       -Forgot to write content into a list item
+       -Error resolved after wrapping content in a li
+    4. -Recipes page on large screens pushes beyond background on right
+       -CSS code doesn't seem to be the issue, will delete and add html to problem solve
 
 ## Deployment
 
@@ -44,3 +47,4 @@
     -Delftstack https://www.delftstack.com/howto/css/css-font-border/
     -GeeksforGeeks https://www.geeksforgeeks.org/set-the-opacity-only-to-background-color-not-on-the-text-in-css/
     -Digitalocean https://www.digitalocean.com/community/tutorials/css-prevent-line-break
+    -Favicon https://favicon.io/tutorials/how-to-add-a-favicon-to-a-website-ico-format/
