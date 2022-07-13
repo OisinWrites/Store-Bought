@@ -102,23 +102,29 @@ body {
     align-items: center;
 }
 /*-------------Recipes---------*/
-#recipebody {
-    padding-bottom: 40rem;
-    width: 80%;
+.recipe-section {
+    display:flex;
+    justify-content: space-around;
+    width:auto;
 }
 .recipes{
-    width:auto;
+    width:30rem;
+    display:flex;
+    flex-direction: column;
     margin-top: 4%;
     background:rgb(38, 39, 41);
     color:lavender;
     font-weight:200;
-    padding:3rem;
     font-family: 'Nanum Pen Script', cursive;
+    padding: 3rem;
 }
-.cocktafil-images {
-    width: 80%;
-    height: 80%;
+.cocktail-images {
+    width: auto;
+    height: 15rem;
     border-radius: 2%;
+}
+.recipelists {
+    width: auto;
 }
 /*-------------Footer---------*/
 footer {
