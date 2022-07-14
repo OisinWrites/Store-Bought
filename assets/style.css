@@ -91,6 +91,13 @@ h1 {
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
 }
+#displayimage {
+    width: 400px;
+    height: 225px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+   }
 /*-------------Recipes---------*/
 .recipe-section {
     display:flex;
