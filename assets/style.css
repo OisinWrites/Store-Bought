@@ -18,7 +18,7 @@ body {
      margin:0%;
      padding: 0.5rem;
      border-radius: 1rem;
-     background-color: rgba(38, 89, 114, 0.75);
+     background-color: rgba(33, 78, 99, 0.75);
      display: flex;
      list-style-type: none;
      justify-content:space-around;
@@ -90,12 +90,13 @@ body {
     background-color: lavender;
     color:rgb(38, 39, 41, 1);
     width: 90%;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px; 
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem; 
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: 1.25rem;
+    margin-right: 1.25rem;
 }
 .adjective-verb {
     font-style: italic;
@@ -108,7 +109,7 @@ body {
 .recipe-section {
     display:flex;
     flex-direction: column;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     background-color: rgb(33, 78, 99);
     margin-top: 5vh;
 }
@@ -118,7 +119,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 2vh;
+    margin-top: 3vh;
     background:rgb(38, 39, 41);
     color:lavender;
     font-weight:200;
@@ -130,6 +131,8 @@ body {
     width: 80vw;
     height: auto;
     border-radius: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .recipelists {
     width: auto;
@@ -139,7 +142,7 @@ body {
     height: 5rem;
 }
 footer {
-    height: 4rem;
+    height: 5rem;
     width: 100vw;
     background-color:rgb(255, 184, 4, 0.9);
     position: fixed;
@@ -186,5 +189,11 @@ footer {
     .recipes {
         display: flex;
         align-items: flex-start;
+    }
+}
+@media screen and (min-width: 701px) {
+    #banner {
+        display: flex;
+        align-items: left;
     }
 }
