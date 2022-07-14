@@ -39,13 +39,13 @@ body {
     border-radius: 70%;
     margin-top: 2%;
     height: 100%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 250%;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 .banner-items {
     font-weight: 300;
@@ -190,7 +190,13 @@ footer {
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
 }
+/*-------------medium size screen rules------*/
 @media screen and (min-width: 601px) {
+    #banner {
+        width:30rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .origin-definitions {
         display:flex;
         flex-direction: row;
@@ -200,8 +206,11 @@ footer {
         display:flex;
         flex-direction: column;
     }
-    #banner {
-        width: 30rem;
+    .index-page-layout {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .recipe-section {
         flex-direction: row;
@@ -213,9 +222,10 @@ footer {
         align-items: flex-start;
     }
 }
+/*---------------------large screen rules--------------*/
 @media screen and (min-width: 701px) {
     #banner {
-        display: flex;
-        justify-content: left;
+        margin-left: 20vw;
+        margin-right: 50vw;
     }
 }
