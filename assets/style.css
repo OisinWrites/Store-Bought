@@ -109,21 +109,25 @@ body {
     display:flex;
     flex-direction: column;
     padding-bottom: 4rem;
+    background-color: rgb(33, 78, 99);
+    margin-top: 5vh;
 }
 .recipes{
     width:auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 4%;
+    align-items: flex-start;
+    margin-top: 2vh;
     background:rgb(38, 39, 41);
     color:lavender;
     font-weight:200;
     font-family: 'Nanum Pen Script', cursive;
     padding: 3rem;
+    height:max-content;
 }
 .cocktail-images {
-    width: 20rem;
+    width: 80vw;
     height: auto;
     border-radius: 2%;
 }
@@ -131,8 +135,11 @@ body {
     width: auto;
 }
 /*-------------Footer---------*/
+.footer-step {
+    height: 5rem;
+}
 footer {
-    height: 80px;
+    height: 4rem;
     width: 100vw;
     background-color:rgb(255, 184, 4, 0.9);
     position: fixed;
@@ -164,6 +171,7 @@ footer {
         flex-direction: row;
     }
     .cocktail-images {
+        width: 20rem;
         display:flex;
         flex-direction: column;
     }
@@ -174,5 +182,9 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .recipes {
+        display: flex;
+        align-items: flex-start;
     }
 }
