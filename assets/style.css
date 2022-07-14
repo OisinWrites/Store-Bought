@@ -53,7 +53,6 @@ body {
     color:rgb(255, 184, 4);
     margin-top: 0.1rem;
     margin-bottom: 0.1rem;
-    -webkit-text-stroke: 0.08rem rgb(29, 123, 167, 0.2);
     font-family: 'Dancing Script', cursive; 
 }
 #store-bought {
@@ -63,55 +62,43 @@ body {
     font-size: 150%;
     color:rgb(255, 184, 4);
 }
-/*-------------History---------*/
-.origin-definitions {
+/*-------------Index-----------*/
+.index-page-layout {
+    margin-top: .75rem;
+    padding: .5rem;
+    padding-bottom: 6rem;
+    background-color: slategray;
+}
+.landing-page-content {
+    max-width: 70vw;
+    background-color:rgba(230, 230, 250, 0.712);
+    color:rgba(33, 78, 99, 0.95) ;
     font-family: 'Nanum Pen Script', cursive;
-    font-weight: 200;
-    font-size: 22px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
-    align-items: center;
-    padding-bottom: 100px;
-    background:rgb(38, 39, 41, 1);
-    margin-top: 10px;
+    margin: 5vw;
+    padding: 5%;
+    border-radius: 5%;
 }
-#origin {
-    width: 90%;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    background:rgb(38, 39, 41, 1);
-    color:lavender;
-    margin-top: 20px;
+h1 {
+    padding-left: 5%;
 }
-#definition {
-    background-color: lavender;
-    color:rgb(38, 39, 41, 1);
-    width: 90%;
-    padding-top: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-bottom: 3rem; 
-    list-style-type: none;
-    margin-top: 1.25rem;
-    margin-right: 1.25rem;
-}
-.adjective-verb {
-    font-style: italic;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.store-bought-landing {
+    white-space: nowrap;
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
 }
 /*-------------Recipes---------*/
 .recipe-section {
     display:flex;
     flex-direction: column;
     padding-bottom: 6rem;
-    background-color: rgb(33, 78, 99);
-    margin-top: 5vh;
+    background-color:rgb(38, 39, 41);
+    margin-top: .75rem;
 }
 .recipes{
     width:auto;
@@ -120,7 +107,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     margin-top: 3vh;
-    background:rgb(38, 39, 41);
+    background: rgb(33, 78, 99);
     color:lavender;
     font-weight:200;
     font-family: 'Nanum Pen Script', cursive;
@@ -136,6 +123,42 @@ body {
 }
 .recipelists {
     width: auto;
+}
+/*-------------History---------*/
+.origin-definitions {
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 200;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: .75rem;
+    padding-bottom: 5rem;
+    background:rgb(38, 39, 41, 1);
+    margin-top: .75rem;
+}
+#origin {
+    width: 90%;
+    padding: 1.25rem;
+    background:rgb(38, 39, 41, 1);
+    color:lavender;
+    margin-top: 20px;
+}
+#definition {
+    background-color: lavender;
+    color:rgb(38, 39, 41, 1);
+    width: 90%;
+    padding: 3rem; 
+    list-style-type: none;
+    margin: 1.25rem;
+}
+.adjective-verb {
+    font-style: italic;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*-------------Footer---------*/
 .footer-step {
