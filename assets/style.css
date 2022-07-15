@@ -13,19 +13,19 @@ body {
 /*-------------Navigation Bar---------*/
 .navicons {
     color:rgb(255, 184, 4);
- }
- .navbar-list {
-     margin:0%;
-     padding: 0.5rem;
-     border-radius: 1rem;
-     background-color: rgba(33, 78, 99, 0.75);
-     display: flex;
-     list-style-type: none;
-     justify-content:space-around;
-     flex-direction:row;
-     font-size: 180%
- }
- .nav1 {
+}
+.navbar-list {
+    margin:0%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgba(33, 78, 99, 0.75);
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    flex-direction:row;
+    font-size: 180%
+}
+.nav1 {
     color:rgb(255, 184, 4);
     text-decoration: none;
     font-size: 80%;
@@ -42,6 +42,7 @@ body {
     width: 60vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-size: 250%;
     margin-left: 20vw;
@@ -66,25 +67,32 @@ body {
     margin-top: 3.2rem;
     padding: .5rem;
     padding-bottom: 6rem;
-    background-color: slategray;
+    background-color:rgb(255, 184, 4);
 }
-.landing-page-content {
-    max-width: 70vw;
+.index-page-content {
+    font-size: 140%;
+    max-width: 85vw;
     background-color:rgba(230, 230, 250, 0.712);
     color:rgba(33, 78, 99, 0.95) ;
     font-family: 'Nanum Pen Script', cursive;
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
     margin: 5vw;
     padding: 5%;
     border-radius: 5%;
+    
 }
 h1 {
     padding-left: 5%;
 }
-.store-bought-landing {
+.heading {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.store-bought-index {
     white-space: nowrap;
     font-size: 3rem;
     font-weight: 300;
@@ -93,12 +101,15 @@ h1 {
 }
 #displayimage {
     margin: 3rem;
-    width: 30rem;
-    height: 22rem;
+    min-height:70vh;
+    min-width: 50vw;
     border: .25rem solid slategray;
     background-position: center;
     background-size: cover;
-   }
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 /*-------------Recipes---------*/
 .recipe-section {
     display:flex;
@@ -231,8 +242,8 @@ footer {
 /*---------------------large screen rules--------------*/
 @media screen and (min-width: 1300px) {
     #banner {
-        width: 30vw;
-        margin-left: 12vw;
-        margin-right: 58vw;
+        width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
