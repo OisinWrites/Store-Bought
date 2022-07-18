@@ -35,11 +35,11 @@
    the experience that is trying to be replicated and enjoyed is that of a cocktail bar.
 -  4 Wireframes
 - ![index-mobile](readme-docs/wireframes-mockup/mobilewf-index.png)
-- ![index-mobile](readme-docs/wireframes-mockup/mobilewf-recipes.png)
-- ![index-mobile](readme-docs/wireframes-mockup/mobilewf-history.png)
-- ![index-mobile](readme-docs/wireframes-mockup/desktopwf-index.png)
-- ![index-mobile](readme-docs/wireframes-mockup/desktopwf-recipes.png)
-- ![index-mobile](readme-docs/wireframes-mockup/desktopwf-history.png)
+- ![recipes-mobile](readme-docs/wireframes-mockup/mobilewf-recipes.png)
+- ![history-mobile](readme-docs/wireframes-mockup/mobilewf-history.png)
+- ![index-desktop](readme-docs/wireframes-mockup/desktopwf-index.png)
+- ![recipes-desktop](readme-docs/wireframes-mockup/desktopwf-recipes.png)
+- ![history-desktop](readme-docs/wireframes-mockup/desktopwf-history.png)
 ### User Stories
 - #### As a first time visitor
    - I want to be able to navigate to the cocktail recipe section easily as that is my reason for visiting the site
@@ -80,6 +80,7 @@
    4. -Recipes page on large screens pushes beyond background on right
       -CSS code doesn't seem to be the issue, will delete and add html to problem solve
       -Issue is with section element, adjusting width to a % is helping
+   5. Favicon for meta tab head not working on live site 
 ### Unfixed bugs
    1. Media screen resolution built from ""smallest screen size", the minimum size my windows on desktop would minimize to,
    which unfortunately was only 500px. In future I would scale down to as low as 280 and build up from there. 
@@ -90,17 +91,24 @@
 - All links work as expected
 - Media screen responsivity works well above 500px
 - Form works correctly
+- Works on multiple browsers
 ### Running site through multiple testing programs   
 - Mock-up on different screen sizes 
-- ![index-page-mock-up](readme-docs/mockup/index.png)
+- ![index-page-mockup](readme-docs/wireframes-mockup/mockup-index.png)
+- ![recipes-page-mockup](readme-docs/wireframes-mockup/mockup-recipes.png)
+- ![history-page-mockup](readme-docs/wireframes-mockup/mockup-history.png)
 - Wave Accessibility 
 - ![accessibility screenshot](readme-docs/testing/accessibility1.png)
 - HTML validation 
-- ![html validation screenshot](readme-docs/testing/htmlvalidation1.png)
+- ![html validation screenshot index](readme-docs/testing/htmlvalidation-index.png)
+- ![html validation screenshot recipes](readme-docs/testing/htmlvalidation-recipes.png)
+- ![html validation screenshot history](readme-docs/testing/performance-history.png)
 - CSS validation 
 - ![css validaition screenshot](readme-docs/testing/cssvalidation1.png)
 - Lighthouse Performance 
-- ![performance screenshot](readme-docs/testing/performance1.png)
+- ![performance screenshot index](readme-docs/testing/performance-index.png)
+- ![performance screenshot recipes](readme-docs/testing/performance-recipes.png)
+- ![performance screenshot history](readme-docs/testing/performance-history.png)
 ## Deployment
 ### To **deploy** the project on Github:
 - Select the repository you wish to deploy.
