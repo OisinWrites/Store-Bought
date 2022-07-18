@@ -32,7 +32,14 @@
    - The photos were chosen for their bright, high contrast, 'popping' imagery.
    They make the drinks look enticing and may engage the user and encourage the user to try the recipes.
    - The photo of a bar as the background was chosen because, even though this site is for making and drinking cocktails at home,
-   the experience that is trying to be replicated and enjoyed is that of a cocktail bar. 
+   the experience that is trying to be replicated and enjoyed is that of a cocktail bar.
+-  4 Wireframes
+- ![index-mobile](readme-docs/wireframes-mockup/mobilewf-index.png)
+- ![index-mobile](readme-docs/wireframes-mockup/mobilewf-recipes.png)
+- ![index-mobile](readme-docs/wireframes-mockup/mobilewf-history.png)
+- ![index-mobile](readme-docs/wireframes-mockup/desktopwf-index.png)
+- ![index-mobile](readme-docs/wireframes-mockup/desktopwf-recipes.png)
+- ![index-mobile](readme-docs/wireframes-mockup/desktopwf-history.png)
 ### User Stories
 - #### As a first time visitor
    - I want to be able to navigate to the cocktail recipe section easily as that is my reason for visiting the site
@@ -109,8 +116,6 @@
     -GeeksforGeeks https://www.geeksforgeeks.org/set-the-opacity-only-to-background-color-not-on-the-text-in-css/
     -Digitalocean https://www.digitalocean.com/community/tutorials/css-prevent-line-break
     -Favicon https://favicon.io/tutorials/how-to-add-a-favicon-to-a-website-ico-format/
-   ### With particular credit and thanks to Laura Jones portfolio 1 repository,
-   ### highlighted by mentor as a possible template and example for readme
     -Laura Jones https://laurajones9-portfoliop1-hodfbgh5vsu.ws-eu53.gitpod.io/
       _for explaining the solution she found to a white space issue on the right of screen_
       _as a guide for how to document and arrange my readme and screenshots_
